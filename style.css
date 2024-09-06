@@ -69,7 +69,12 @@ nav a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 50px;
+}
+
+@media (max-width: 1090px) {
+  .intro {
+    flex-direction: column;
+  }
 }
 
 .intro p {
