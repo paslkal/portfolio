@@ -300,6 +300,14 @@ hr {
   align-items: center;
 }
 
+@media (max-width: 750px) {
+  .first-footer {
+    flex-direction: column;
+    gap: 30px;
+    margin-bottom: 30px;
+  }
+}
+
 .right-first-footer {
   display: flex;
   justify-content: space-evenly;
@@ -313,6 +321,13 @@ hr {
   align-items: center;
   margin-top: 50px;
   gap: 150px;
+}
+
+@media (max-width: 750px) {
+  .second-footer {
+    flex-direction: column;
+    gap: 30px;
+  }
 }
 
 .designed-by {
