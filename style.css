@@ -308,7 +308,7 @@ nav a {
 footer {
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 hr {
