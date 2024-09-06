@@ -59,6 +59,13 @@ header {
 nav {
   display: flex;
   gap: 30px;
+  align-items: center;
+}
+
+@media (max-width: 450px) {
+  nav {
+    flex-direction: column;
+  }
 }
 
 nav a {
@@ -338,6 +345,23 @@ hr {
   .second-footer {
     flex-direction: column;
     gap: 30px;
+  }
+}
+
+.nav-footer {
+  display: flex;
+  gap: 30px;
+}
+
+.nav-footer a {
+  text-decoration: none;
+  color: #666666;
+  font-size: 21px;
+}
+
+@media (max-width: 450px) {
+  .nav-footer {
+    flex-direction: column;
   }
 }
 
