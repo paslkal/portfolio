@@ -40,6 +40,19 @@ header {
   gap: 30px;
 }
 
+@media (max-width: 1100px) {
+  header {
+    flex-direction: column;
+    gap: 30px;
+  }
+}
+
+@media (max-width: 800px) {
+  .right-side {
+    flex-direction: column;
+  }
+}
+
 nav {
   display: flex;
   gap: 30px;
