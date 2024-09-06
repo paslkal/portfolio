@@ -24,6 +24,7 @@ header {
   padding: 20px 50px;
   background-color: white;
   gap: 200px;
+  margin-bottom: 200px;
 }
 
 .logo {
@@ -135,6 +136,7 @@ nav a {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+  margin-top: 200px;
 }
 
 .stack-title, .projects-title {
