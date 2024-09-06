@@ -14,7 +14,6 @@ body {
   align-items: center;
 
   font-family: 'Poppins', sans-serif;
-  height: 10000px;
 }
 
 /* header */
@@ -308,6 +307,7 @@ nav a {
 footer {
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 hr {
